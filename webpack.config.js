@@ -10,10 +10,6 @@ var webpack = require('webpack')
 module.exports = {
     mode:'development',
     entry:"./src/index.js",
-    // {
-    //     vender:"./src/index.js",
-    //     entry:"./src/entry.js"
-    // },
     output:{
         path:path.resolve(__dirname,'dist'),
         filename:"js/[chunkhash:7].js",
